@@ -1,0 +1,8 @@
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\bin\Debug\DAL.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\bin\Debug\DAL.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\bin\Debug\Types.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\bin\Debug\Types.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\obj\Debug\DAL.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\DAL\obj\Debug\DAL.pdb

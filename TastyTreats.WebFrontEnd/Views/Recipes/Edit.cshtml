@@ -1,0 +1,100 @@
+﻿@model TastyTreats.WebFrontEnd.ViewModels.RecipeEditVM
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Modify Recipe - @Model.Recipe.Title</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+
+        @if (Model.Recipe.Errors.Count > 0)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach(var e in Model.Recipe.Errors.Where(e => e.Type == Types.ErrorType.Business))
+                    {
+                        <li>@e.ErrorDescription</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        @Html.HiddenFor(model => model.Recipe.ID)
+        @Html.HiddenFor(model => model.Recipe.DateAdded)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Recipe.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Recipe.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.ChefID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Recipe.ChefID, Model.Chefs, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Recipe.ChefID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.Yield, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Recipe.Yield, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Recipe.Yield, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.DateAdded, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.Recipe.DateAdded, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Recipe.DateAdded, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.Archived, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.Recipe.Archived)
+                    @Html.ValidationMessageFor(model => model.Recipe.Archived, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Recipe.TypeID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Recipe.TypeID, Model.RecipeTypes, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Recipe.TypeID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/Content/Recipes/EditRecipe.css" />    
+}

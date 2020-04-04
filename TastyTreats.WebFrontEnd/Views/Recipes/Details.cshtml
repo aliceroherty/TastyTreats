@@ -1,0 +1,75 @@
+﻿@model TastyTreats.WebFrontEnd.ViewModels.RecipeDetailsVM
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Title</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Chef)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chef)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Yield)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yield)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Archived)
+        </dt>
+
+        @if (Model.Archived)
+        {
+            <dd>Yes</dd>
+        }
+        else
+        {
+            <dd>No</dd>
+        }
+    </dl>
+</div>
+
+<h2>Reviews</h2>
+
+@if (Model.Reviews.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <!--<th>Date Reviewed</th>
+            <th>Stars</th>
+            <th>Comment</th>-->
+            <th>@Html.DisplayNameFor(model => model.Reviews[0].Date)</th>
+            <th>@Html.DisplayNameFor(model => model.Reviews[0].Stars)</th>
+            <th>@Html.DisplayNameFor(model => model.Reviews[0].Comment)</th>
+        </tr>
+        @foreach (var review in Model.Reviews)
+        {
+            <tr>
+                <td>@review.Date</td>
+                <td>@review.Stars</td>
+                <td>@review.Comment</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <hr />
+    <p>This recipe does not have any reviews yet.</p>
+}
+
+<p>
+    @Html.ActionLink("Add a New Review", "Create", "Reviews", new { id = Model.RecipeId }, new { }) |
+    @Html.ActionLink("Back to Recipe List", "Index")
+</p>

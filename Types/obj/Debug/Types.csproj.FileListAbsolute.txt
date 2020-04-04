@@ -1,0 +1,5 @@
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\Types\bin\Debug\Types.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\Types\bin\Debug\Types.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\Types\obj\Debug\Types.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\Types\obj\Debug\Types.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\Types\obj\Debug\Types.csprojAssemblyReference.cache

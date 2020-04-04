@@ -1,0 +1,14 @@
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Service.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Service.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Model.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Repository.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\Types.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\DAL.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Model.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\TastyTreats.Repository.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\Types.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\bin\Debug\DAL.pdb
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\obj\Debug\TastyTreats.Service.csprojAssemblyReference.cache
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\obj\Debug\TastyTreats.Service.csproj.CopyComplete
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\obj\Debug\TastyTreats.Service.dll
+D:\WAM\Advanced_Web\Assignments\assignment-1-tasty-treats-aliceroherty\TastyTreats\TastyTreats.Service\obj\Debug\TastyTreats.Service.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTreats.Model", "TastyTreats.Model\TastyTreats.Model.csproj", "{4DC63954-3EF1-4B19-8C02-E4D81970F419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTreats.Repository", "TastyTreats.Repository\TastyTreats.Repository.csproj", "{E2E9B8B0-5BD5-4FF2-AAAF-53D072D60397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTreats.Service", "TastyTreats.Service\TastyTreats.Service.csproj", "{625B3CA7-5C9E-48BF-B52E-366AA06436DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3D0D2264-2317-4008-8D35-DF54EAC32D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types", "Types\Types.csproj", "{96AF5D66-C0D3-4221-A97E-0C8F903A347D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTreats.WebFrontEnd", "TastyTreats.WebFrontEnd\TastyTreats.WebFrontEnd.csproj", "{9A86594A-629E-4A3F-82A1-DDF081A92285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC63954-3EF1-4B19-8C02-E4D81970F419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC63954-3EF1-4B19-8C02-E4D81970F419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC63954-3EF1-4B19-8C02-E4D81970F419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC63954-3EF1-4B19-8C02-E4D81970F419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E9B8B0-5BD5-4FF2-AAAF-53D072D60397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E9B8B0-5BD5-4FF2-AAAF-53D072D60397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E9B8B0-5BD5-4FF2-AAAF-53D072D60397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E9B8B0-5BD5-4FF2-AAAF-53D072D60397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625B3CA7-5C9E-48BF-B52E-366AA06436DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625B3CA7-5C9E-48BF-B52E-366AA06436DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625B3CA7-5C9E-48BF-B52E-366AA06436DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625B3CA7-5C9E-48BF-B52E-366AA06436DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0D2264-2317-4008-8D35-DF54EAC32D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0D2264-2317-4008-8D35-DF54EAC32D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0D2264-2317-4008-8D35-DF54EAC32D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0D2264-2317-4008-8D35-DF54EAC32D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AF5D66-C0D3-4221-A97E-0C8F903A347D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AF5D66-C0D3-4221-A97E-0C8F903A347D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AF5D66-C0D3-4221-A97E-0C8F903A347D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AF5D66-C0D3-4221-A97E-0C8F903A347D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A86594A-629E-4A3F-82A1-DDF081A92285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A86594A-629E-4A3F-82A1-DDF081A92285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A86594A-629E-4A3F-82A1-DDF081A92285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A86594A-629E-4A3F-82A1-DDF081A92285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {583ABF48-FA7F-4DED-B4E4-58E62EB7D2C4}
+	EndGlobalSection
+EndGlobal
